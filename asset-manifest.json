@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wendy-palamarchuk-portfolio/static/css/main.5b839cd9.css",
+    "main.js": "/wendy-palamarchuk-portfolio/static/js/main.4e7dac0b.js",
+    "index.html": "/wendy-palamarchuk-portfolio/index.html",
+    "main.5b839cd9.css.map": "/wendy-palamarchuk-portfolio/static/css/main.5b839cd9.css.map",
+    "main.4e7dac0b.js.map": "/wendy-palamarchuk-portfolio/static/js/main.4e7dac0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b839cd9.css",
+    "static/js/main.4e7dac0b.js"
+  ]
+}

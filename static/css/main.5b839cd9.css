@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);:root{--primary-background-color:#f4c2c2;font-family:VT323}html{overflow:hidden;padding:0}.navbar,body,html{margin:0}.navbar{align-items:center;background-color:var(--primary-background-color);background:linear-gradient(180deg,#f9e9e9 0,var(--primary-background-color) 40%);display:flex;font-size:20pt;min-height:60px;width:100%}.footer{bottom:0;height:2.5rem;position:absolute;width:100%}
+/*# sourceMappingURL=main.5b839cd9.css.map*/
