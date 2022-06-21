@@ -1,0 +1,17 @@
+/* hide scrollbar but allow scrolling */
+.app {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.app::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.container {
+    width: calc(100% - 20px);
+    min-height: 100vh;
+    overflow: auto;
+    padding: 10px;
+}

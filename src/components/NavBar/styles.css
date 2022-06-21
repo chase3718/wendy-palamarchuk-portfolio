@@ -1,5 +1,9 @@
 .navbar {
-    display: flex;
+    position: fixed;
+    top: 0;
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 75% auto auto;
     background-color: var(--primary-background-color);
     background: linear-gradient(180deg, #f9e9e9 0%, var(--primary-background-color) 40%);
     margin: 0;
@@ -7,4 +11,18 @@
     min-height: 60px;
     font-size: 20pt;
     align-items: center;
+    justify-content: center;
+}
+
+.title {
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.nav-button-container {
+    margin: 10px;
+}
+
+.nav-button-container:hover {
+    outline: dashed 1px;
 }
