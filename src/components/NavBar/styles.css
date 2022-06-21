@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    background-color: var(--primary-background-color);
+    background: linear-gradient(180deg, #f9e9e9 0%, var(--primary-background-color) 40%);
+    margin: 0;
+    width: 100%;
+    min-height: 60px;
+    font-size: 20pt;
+    align-items: center;
+}
