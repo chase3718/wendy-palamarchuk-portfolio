@@ -1,5 +1,5 @@
 :root {
-  --primary-background-color: #F4C2C2; 
+  --primary-background-color: #F4C2C2;
 }
 
 html {
@@ -7,8 +7,18 @@ html {
 
   padding: 0;
   margin: 0;
+
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
